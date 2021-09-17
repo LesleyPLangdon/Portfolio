@@ -1,0 +1,135 @@
+#container {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+#imagecontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.headertext {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 42pt;
+  color:crimson;
+}
+#navbar {
+    
+
+}
+ul {
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+li {
+      
+    
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    
+}
+.navlink {
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 18pt;
+    letter-spacing: 0.2em;
+}
+section {
+    width: 60%;
+    margin-left: 20%;
+    font-size: 18pt;
+}
+h1 {
+    text-align: center;
+}
+.socialheader {
+    display: flex;
+    justify-content: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-github {
+    background: black;
+    color: white;
+  }
+  #projectblocks {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 31%;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    color: black;
+    
+  }
+  .column p {
+      font-size: 16px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .projectimage {
+      width: 100%;
+  }
+  .project-title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+  }
+  .project-title:hover {
+      font-weight: 900;
+  }

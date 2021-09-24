@@ -32,7 +32,7 @@ h1 {
 }
 #navbar {
    display: flex;
-    background-color: bisque;
+    background-color: rgb(196, 238, 255);
 
 }
 ul {
@@ -163,7 +163,12 @@ footer {
   /* phone formating */
   @media (max-width: 400px){
     .column{
-      width: 100%;
+      float: left;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    color: black;
     }
     .headertext {
       font-size: medium;

@@ -7,8 +7,8 @@ hr {
   color: rgb(29, 107, 199);
 }
 section {
-  width: 60%;
-  margin-left: 20%;
+  width: 90%;
+  margin-left: 5%;
   font-size: 18pt;
 }
 h1 {
@@ -27,13 +27,13 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 42pt;
+  font-size: 22pt;
   color:crimson;
 }
 #navbar {
    display: flex;
-    background-color: rgb(196, 238, 255);
-
+    background-color: rgb(29, 107, 199);
+  color: white;
 }
 ul {
    width: 100%;
@@ -61,10 +61,10 @@ li a {
 .navlink {
     
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 18pt;
     letter-spacing: 0.2em;
-    
+    color: whitesmoke;
 }
 
 /* footer */
@@ -130,7 +130,7 @@ footer {
   /* Create three equal columns that floats next to each other */
   .column {
     float: left;
-    width: 31%;
+    width: 100%;
     padding: 10px;
     position: relative;
     text-align: center;
@@ -161,17 +161,17 @@ footer {
       font-weight: 900;
   }
   /* phone formating */
-  @media (max-width: 400px){
+  @media (min-width: 1000px){
     .column{
-      float: left;
-    width: 100%;
+    float: left;
+    width: 31%;
     padding: 10px;
     position: relative;
     text-align: center;
-    color: black;
+    color: purple;
     }
     .headertext {
-      font-size: medium;
+      font-size: 42pt;
       top: 50%;
     }
     

@@ -23,7 +23,7 @@ h1 {
 }
 .headertext {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -32,8 +32,8 @@ h1 {
 }
 #navbar {
    display: flex;
-    background-color: rgb(29, 107, 199);
-  color: white;
+    background-color: whitesmoke;
+    
 }
 ul {
    width: 100%;
@@ -64,7 +64,7 @@ li a {
     font-weight: lighter;
     font-size: 18pt;
     letter-spacing: 0.2em;
-    color: whitesmoke;
+    color: rgb(29, 107, 199);
 }
 
 /* footer */
@@ -168,11 +168,12 @@ footer {
     padding: 10px;
     position: relative;
     text-align: center;
-    color: purple;
+   
     }
     .headertext {
       font-size: 42pt;
-      top: 50%;
+      top: 40%;
+      transform: translate(-50%, -50%);
     }
     
   }
